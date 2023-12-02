@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background-image: url(jons.jpg);
+        background-size: cover;
+        margin: 20px;
+      }
+      .header {
+        padding: 60px;
+        text-align: center;
+        background: #333; /* Color: Dark Gray */
+        color: white;
+        font-size: 30px;
+      }
+
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+      }
+
+      .card {
+        background-color: white; /* Color: White */
+        background-size: cover;
+        border-radius: 8px;
+        margin: 10px;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 250px;
+      }
+
+      .card img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        border-bottom: 1px solid #ddd; /* Color: Light Gray */
+      }
+
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000; /* Color: Black */
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+
+      .card button:hover {
+        opacity: 0.7;
+      }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #333; /* Color: Dark Gray */
+      }
+
+      .topnav a {
+        float: left;
+        color: #f2f2f2; /* Color: Almost White */
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd; /* Color: Light Gray */
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #04aa6d; /* Color: Green */
+        color: white;
+      }
+    </style>
+    <title>Electronic Store</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Welcome ;)</h1>
+    </div>
+
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="honesty.html">Honesty Statement</a>
+      <a href="about.html">About</a>
+    </div>
+
+    <main>
+      <section class="card-container">
+        <div class="card">
+          <img src="images/ps5.png" alt="Playstation 5" />
+          <h2>Playstation 5</h2>
+          <p>The PlayStation 5 (PS5) is a next-generation gaming console developed by Sony.</p>
+          <p>Price: $399.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+          <img src="images/xbox.png" alt="Xbox X Series" />
+          <h2>Xbox Series X</h2>
+          <p>The Xbox Series X is a high-performance gaming console developed by Microsoft.</p>
+          <p>Price: $299.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+          <img src="images/nintendo.png" alt="Nintendo Switch" />
+          <h2>Nintendo Switch</h2>
+          <p>
+            The Nintendo Switch is a versatile gaming console that combines home and portable
+            gaming.
+          </p>
+          <p>Price: $199.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+          <img src="images/c.png" alt="Apple watch" />
+          <h2>Apple Watch</h2>
+          <p>The Apple Watch is a line of smartwatches designed and produced by Apple Inc.</p>
+          <p>Price: $199.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+          <img src="images/iphone.png" alt="Iphone 13" />
+          <h2>Iphone 13</h2>
+          <p>
+            The iPhone 13 is a flagship smartphone developed by Apple. Released in September 2021.
+          </p>
+          <p>Price: $19.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+          <img src="images/samsung.png" alt="Samsung s20" />
+          <h2>Samsung s20</h2>
+          <p>
+            The Samsung Galaxy S20 is a flagship smartphone from Samsung, released in March 2020.
+          </p>
+          <p>Price: $19.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+          <img src="images/n.png" alt="Nintendo 3DS" />
+          <h2>Nintendo 3DS</h2>
+          <p>The Nintendo 3DS is a handheld gaming console with a glasses-free 3D display</p>
+          <p>Price: $99.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+          <img src="images/w.png" alt="Galaxy Watch 6" />
+          <h2>Galaxy Watch 6</h2>
+          <p>The Samsung Galaxy Watch 4 is a smartwatch developed by Samsung Electronics.</p>
+          <p>Price: $299.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+          <img src="images/ipad.png" alt="Ipad Air" />
+          <h2>Ipad Air</h2>
+          <p>The iPad Air is a line of tablet computers designed and manufactured by Apple Inc.</p>
+          <p>Price: $499.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+          <img src="images/tab.png" alt="Samsung Tab 9" />
+          <h2>Samsung Tab 9</h2>
+          <p>The Samsung Tab 9 is a flagship tablet from Samsung, released in March 2022.</p>
+          <p>Price: $399.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Electronic Store. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
